@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/star-wars/static/css/main.073c9b0a.css",
-    "main.js": "/star-wars/static/js/main.e013f749.js",
-    "static/js/787.161ebaff.chunk.js": "/star-wars/static/js/787.161ebaff.chunk.js",
-    "static/media/logo.svg": "/star-wars/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/star-wars/index.html",
-    "main.073c9b0a.css.map": "/star-wars/static/css/main.073c9b0a.css.map",
-    "main.e013f749.js.map": "/star-wars/static/js/main.e013f749.js.map",
-    "787.161ebaff.chunk.js.map": "/star-wars/static/js/787.161ebaff.chunk.js.map"
+    "main.css": "/ricky-morty/static/css/main.ba12083b.css",
+    "main.js": "/ricky-morty/static/js/main.1c1fb457.js",
+    "static/js/787.161ebaff.chunk.js": "/ricky-morty/static/js/787.161ebaff.chunk.js",
+    "static/media/get.ttf": "/ricky-morty/static/media/get.c3d1dfc692e3547fed16.ttf",
+    "index.html": "/ricky-morty/index.html",
+    "main.ba12083b.css.map": "/ricky-morty/static/css/main.ba12083b.css.map",
+    "main.1c1fb457.js.map": "/ricky-morty/static/js/main.1c1fb457.js.map",
+    "787.161ebaff.chunk.js.map": "/ricky-morty/static/js/787.161ebaff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.e013f749.js"
+    "static/css/main.ba12083b.css",
+    "static/js/main.1c1fb457.js"
   ]
 }
