@@ -1,47 +1,22 @@
 import styled from "styled-components";
-import Font from "../fonts/get.ttf";
-import img from "../images/ceu-estrelado.png"
 
 export const HeaderContainer = styled.div`
-    width:100%;
-    height:7rem;
-    background-image: url(${img});
+    min-width:90%;
+    height:120px;
+    background-color:grey;
     display:flex;
     align-items:center;
     justify-content:center;
     padding:5px;
-    
-
+    overflow:hidden;
+   
     h1{
-        color:#97ce4c;
-        font-family:"get";
+        color:black;
         margin:0;
-        font-size:5em
-       
+        font-size:max(2rem,4vw);  
     }
 
-  
-
-    @media only screen  and  (min-width:355px) and (max-width:550px)
-    {
-
-        h1{
-            font-size:3em
-        }
-    }
-
-    @media only screen  and  (max-width:354px)
-    {
-
-        h1{
-            font-size:2em
-        }
-    }
-
-    @font-face{
-            font-family:get;
-            src:url(${Font})
-        }
+   
        
 
 `
