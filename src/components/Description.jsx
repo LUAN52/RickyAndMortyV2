@@ -19,7 +19,6 @@ export default function Description(props) {
 
 
   return (
-
     <DescrContainer>
       <section>
         <h3>{props.item.item.name}</h3>

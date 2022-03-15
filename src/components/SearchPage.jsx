@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect ,useCallback} from 'react';
 import ErrorPage from './ErrorPage';
 
 import {
@@ -19,10 +19,13 @@ const SearchPage = () => {
     const [codeError, setCodeError] = useState(0);
     const [obj, setObj] = useState({ numberPage: 1, actualPage: 1 });
 
-    const changeState = (obj) => {
-        setObj(obj)
-    }
 
+    console.log(window.location.pathname)
+
+    const changeState = useCallback(obj=>{
+        setObj(obj)
+    },[]) 
+        
     let msg = "";
 
     if (value !== "Selecione") {
@@ -47,8 +50,7 @@ const SearchPage = () => {
                         setSearchArray(data.results)
                     }
                     catch (e) {
-                        setCodeError(1);
-                        console.log("não buscou")
+                        setCodeError(1);       
                     }
 
                 }
@@ -118,7 +120,7 @@ const SearchPage = () => {
             {searchArray.length > 0 ? <ResultContainer>
                 {searchArray.map((item, index) => (
                     <ImgContainer key={index} >
-                        <img  alt ={"personagem imagem"}src={item.image} />
+                        <img  alt ={"personagem imagem"} src={item.image} />
                     </ImgContainer>
                    
                 ))}

@@ -1,10 +1,13 @@
 import React from 'react';
 import { HeaderContainer } from './HeaderStyled';
+import SearchIcon from './SearchIcon';
 
 function Header() {
-  return <HeaderContainer>
+  return <><HeaderContainer>
      <h1>Ricky and Morty</h1>
-  </HeaderContainer>;
+  </HeaderContainer>
+  
+  </>
 }
 
 export default Header;
