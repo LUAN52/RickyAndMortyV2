@@ -1,16 +1,12 @@
 {
   "files": {
-    "main.css": "/ricky-morty/static/css/main.ba12083b.css",
-    "main.js": "/ricky-morty/static/js/main.1c1fb457.js",
+    "main.js": "/ricky-morty/static/js/main.f44b88ee.js",
     "static/js/787.161ebaff.chunk.js": "/ricky-morty/static/js/787.161ebaff.chunk.js",
-    "static/media/get.ttf": "/ricky-morty/static/media/get.c3d1dfc692e3547fed16.ttf",
     "index.html": "/ricky-morty/index.html",
-    "main.ba12083b.css.map": "/ricky-morty/static/css/main.ba12083b.css.map",
-    "main.1c1fb457.js.map": "/ricky-morty/static/js/main.1c1fb457.js.map",
+    "main.f44b88ee.js.map": "/ricky-morty/static/js/main.f44b88ee.js.map",
     "787.161ebaff.chunk.js.map": "/ricky-morty/static/js/787.161ebaff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba12083b.css",
-    "static/js/main.1c1fb457.js"
+    "static/js/main.f44b88ee.js"
   ]
 }
