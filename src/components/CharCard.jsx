@@ -11,6 +11,8 @@ export const CharCardItem = (props) => {
             </ImgContainer>
             <Description item={props}/>
         </CharcacterContainer>
+
+        
     )
 }
 
